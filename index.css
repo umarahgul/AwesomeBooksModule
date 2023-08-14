@@ -5,190 +5,189 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: 'lato', sans-serif;
-  }
-  
-  html,
-  body {
+}
+
+html,
+body {
     height: 100%;
-  }
-  
-  .navBar {
+}
+
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0.5rem;
     border: 2px solid #393939;
     padding: 0.4rem;
-  }
-  
-  .navBar p {
+}
+
+.navBar p {
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 500;
-  }
-  
-  .navItems {
+}
+
+.navItems {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .navItems li {
+}
+
+.navItems li {
     border-right: 1px solid #595858fc;
     padding: 0.4rem;
     cursor: pointer;
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 500;
-  }
-  
-  .contactList li {
+}
+
+.contactList li {
     list-style: inside;
     padding-left: 1rem;
-  }
-  
-  .navItems li:nth-child(3) {
+}
+
+.navItems li:nth-child(3) {
     border-right: none;
-  }
-  
-  .navItems li:hover {
+}
+
+.navItems li:hover {
     color: rgb(25, 47, 246);
-  }
-  
-  .date {
+}
+
+.date {
     margin: 0.5rem;
     display: block;
     float: right;
-  }
-  
-  .listSectionHide {
+}
+
+.listSectionHide {
     display: none;
-  }
-  
-  .listSection {
+}
+
+.listSection {
     display: inline;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 500;
     text-align: center;
     margin: 1rem 0;
-  }
-  
-  .booksContainer {
+}
+
+.booksContainer {
     margin: 0 0.5rem;
     border: 2px solid #393939;
-  }
-  
-  .bookContent {
+}
+
+.bookContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.4rem;
-  }
-  
-  .bookContent:nth-child(2n+1) {
+}
+
+.bookContent:nth-child(2n+1) {
     background: #b6b6b658;
-  }
-  
-  .bookInfo {
+}
+
+.bookInfo {
     width: 70%;
     font-family: 'Bodoni Moda', sans-serif;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .bookTitle {
+}
+
+.bookTitle {
     width: 50%;
-  }
-  
-  .bookAuthor {
+}
+
+.bookAuthor {
     width: 25%;
-  }
-  
-  .addSectionHide {
+}
+
+.addSectionHide {
     display: none;
-  }
-  
-  .addSection {
+}
+
+.addSection {
     display: inline;
-  }
-  
-  .addSection hr {
+}
+
+.addSection hr {
     margin: 1rem 7rem;
     background: #393939;
-  }
-  
-  .addSection h2 {
+}
+
+.addSection h2 {
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 400;
     text-align: center;
-  }
-  
-  .form {
+}
+
+.form {
     display: flex;
     flex-direction: column;
     margin: 0 3.5rem;
-  }
-  
-  input {
+}
+
+input {
     margin: 0.5rem 0;
     padding: 0.2rem;
-  }
-  
-  .addBtn {
+}
+
+.addBtn {
     width: 20%;
     align-self: end;
     margin: 0.5rem 0;
-  }
-  
-  .contactSectionHide {
+}
+
+.contactSectionHide {
     display: none;
-  }
-  
-  .contactSection {
+}
+
+.contactSection {
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .contactSection h2 {
+}
+
+.contactSection h2 {
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 400;
-  }
-  
-  .infoText {
+}
+
+.infoText {
     margin: 1rem 0;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     width: 85vw;
     border: 2px solid black;
     margin: 0.5rem;
     padding: 1rem;
     position: absolute;
     bottom: 2%;
-  }
-  
-  .copyright p {
+}
+
+.copyright p {
     font-family: 'Bodoni Moda', sans-serif;
     font-weight: 500;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .copyright {
-      width: 93%;
+        width: 93%;
     }
-  }
-  
-  @media (min-width: 1024px) {
+}
+
+@media (min-width: 1024px) {
     .copyright {
-      width: 95%;
+        width: 95%;
     }
-  }
-  
-  @media (min-width: 1280px) {
+}
+
+@media (min-width: 1280px) {
     .copyright {
-      width: 96%;
+        width: 96%;
     }
-  }
-  
+}
