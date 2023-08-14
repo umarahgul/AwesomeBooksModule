@@ -1,4 +1,4 @@
-class Library {
+export class Library {
     constructor() {
       this.books = this.getBooksFromLocalStorage() || this.getDefaultBooks();
     }

@@ -1,9 +1,14 @@
-import Library from  "./modules/libraryClass.js";
+import {Library} from  "./modules/libraryClass.js";
+import { setupNavigation } from "./modules/showhideSections.js";
+
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const booksCollection = new Library();
     booksCollection.initializeLocalStorage();
-  
+    
+    setupNavigation();
     const addBtn = document.getElementById('addBtn');
     addBtn.addEventListener('click', (e) => {
       e.preventDefault();
@@ -15,4 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     booksCollection.showBooks();
+  
   });
