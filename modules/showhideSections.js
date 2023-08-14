@@ -1,3 +1,4 @@
+export function setupNavigation(){
 const list = document.querySelector('#List');
 const addNew = document.querySelector('#AddNew');
 const contact = document.querySelector('#Contact');
@@ -22,3 +23,4 @@ contact.addEventListener('click', () => {
   addSection.classList.replace('addSection', 'addSectionHide');
   contactSection.classList.replace('contactSectionHide', 'contactSection');
 });
+}
