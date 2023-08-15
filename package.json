@@ -1,13 +1,13 @@
 {
   "name": "awesomebooksmodule",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Umarah Gul",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -22,5 +22,13 @@
   },
   "dependencies": {
     "luxon": "^3.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/umarahgul/AwesomeBooksModule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/umarahgul/AwesomeBooksModule/issues"
+  },
+  "homepage": "https://github.com/umarahgul/AwesomeBooksModule#readme"
 }
