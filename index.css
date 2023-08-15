@@ -167,6 +167,7 @@ input {
   padding: 1rem;
   position: absolute;
   bottom: 2%;
+  z-index:1;
 }
 
 .copyright p {

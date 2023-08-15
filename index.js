@@ -1,32 +1,15 @@
-import { DateTime } from './modules/luxon.min.js';
+
 import Library from './modules/libraryClass.js';
 import  setupNavigation  from './modules/showhideSections.js';
+import displayCurrentDate from './modules/displayDate.js';
 
-
-function displayCurrentDate() {
-  const dateElement = document.querySelector('#date');
-
-  const currentDate = DateTime.local();
-
-  const formattedDate = currentDate.toLocaleString({
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-    hour: 'numeric',
-    minute: '2-digit',
-    second: '2-digit',
-    hour12: true,
-  });
-
-  dateElement.innerHTML = formattedDate;
-}
 
 document.addEventListener('DOMContentLoaded', () => {
   const booksCollection = new Library();
   booksCollection.initializeLocalStorage();
 
   setupNavigation();
-
+ 
   const addBtn = document.getElementById('addBtn');
   addBtn.addEventListener('click', (e) => {
     e.preventDefault();
